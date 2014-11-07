@@ -1,0 +1,14 @@
+D:\Projects\NET\Workspaces\TQC\Chat\ChatControl\bin\Debug\ChatControl.dll
+D:\Projects\NET\Workspaces\TQC\Chat\ChatControl\bin\Debug\ChatControl.pdb
+D:\Projects\NET\Workspaces\TQC\Chat\ChatControl\obj\Debug\ChatControl.csprojResolveAssemblyReference.cache
+D:\Projects\NET\Workspaces\TQC\Chat\ChatControl\obj\Debug\ChatControl.dll
+D:\Projects\NET\Workspaces\TQC\Chat\ChatControl\obj\Debug\ChatControl.pdb
+D:\Projects\NET\Workspaces\TQC\trunk\ChatControl\bin\Debug\ChatControl.dll
+D:\Projects\NET\Workspaces\TQC\trunk\ChatControl\bin\Debug\ChatControl.pdb
+D:\Projects\NET\Workspaces\TQC\trunk\ChatControl\bin\Debug\Interop.DynamicGifLib.dll
+D:\Projects\NET\Workspaces\TQC\trunk\ChatControl\bin\Debug\Interop.ImageOleLib.dll
+D:\Projects\NET\Workspaces\TQC\trunk\ChatControl\obj\Debug\ChatControl.ChatListBox.ChatListBox.resources
+D:\Projects\NET\Workspaces\TQC\trunk\ChatControl\obj\Debug\ChatControl.Properties.Resource.resources
+D:\Projects\NET\Workspaces\TQC\trunk\ChatControl\obj\Debug\ChatControl.csproj.GenerateResource.Cache
+D:\Projects\NET\Workspaces\TQC\trunk\ChatControl\obj\Debug\ChatControl.dll
+D:\Projects\NET\Workspaces\TQC\trunk\ChatControl\obj\Debug\ChatControl.pdb

@@ -1,0 +1,4 @@
+D:\Projects\NET\Workspaces\TQC\trunk\Entity\bin\Debug\Entity.dll
+D:\Projects\NET\Workspaces\TQC\trunk\Entity\bin\Debug\Entity.pdb
+D:\Projects\NET\Workspaces\TQC\trunk\Entity\obj\Debug\Entity.dll
+D:\Projects\NET\Workspaces\TQC\trunk\Entity\obj\Debug\Entity.pdb

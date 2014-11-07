@@ -1,0 +1,10 @@
+D:\Projects\NET\Workspaces\TQC\Chat\agsXMPP\bin\Debug\agsXMPP.dll
+D:\Projects\NET\Workspaces\TQC\Chat\agsXMPP\bin\Debug\agsXMPP.pdb
+D:\Projects\NET\Workspaces\TQC\Chat\agsXMPP\obj\Debug\agsXMPP.csprojResolveAssemblyReference.cache
+D:\Projects\NET\Workspaces\TQC\Chat\agsXMPP\obj\Debug\agsXMPP.dll
+D:\Projects\NET\Workspaces\TQC\Chat\agsXMPP\obj\Debug\agsXMPP.pdb
+D:\Projects\NET\Workspaces\TQC\trunk\agsXMPP\bin\Debug\agsXMPP.dll.config
+D:\Projects\NET\Workspaces\TQC\trunk\agsXMPP\bin\Debug\agsXMPP.dll
+D:\Projects\NET\Workspaces\TQC\trunk\agsXMPP\bin\Debug\agsXMPP.pdb
+D:\Projects\NET\Workspaces\TQC\trunk\agsXMPP\obj\Debug\agsXMPP.dll
+D:\Projects\NET\Workspaces\TQC\trunk\agsXMPP\obj\Debug\agsXMPP.pdb

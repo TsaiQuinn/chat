@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F9FB9174-C68B-486E-8FB7-8CFE21675B22}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChatControl</RootNamespace>
+    <AssemblyName>ChatControl</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.DynamicGifLib">
+      <HintPath>..\Dll\Interop.DynamicGifLib.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.ImageOleLib">
+      <HintPath>..\Dll\Interop.ImageOleLib.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChatListBox\ChatListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ChatListBox\ChatListBox.Designer.cs">
+      <DependentUpon>ChatListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChatListBox\ChatListEventArgs.cs" />
+    <Compile Include="ChatListBox\ChatListItem.cs" />
+    <Compile Include="ChatListBox\ChatListItemConverter.cs" />
+    <Compile Include="ChatListBox\ChatListItemIcon.cs" />
+    <Compile Include="ChatListBox\ChatListSubItem.cs" />
+    <Compile Include="ChatListBox\ChatListSubItemConverter.cs" />
+    <Compile Include="ChatListBox\ChatListVScroll.cs" />
+    <Compile Include="ChatRichTextBox\CHARRANGE.cs" />
+    <Compile Include="ChatRichTextBox\ChatRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ChatRichTextBox\CLIPFORMAT.cs" />
+    <Compile Include="ChatRichTextBox\COMRECT.cs" />
+    <Compile Include="ChatRichTextBox\DVASPECT.cs" />
+    <Compile Include="ChatRichTextBox\FORMATETC.cs" />
+    <Compile Include="ChatRichTextBox\GETCLIPBOARDDATAFLAGS.cs" />
+    <Compile Include="ChatRichTextBox\GETOBJECTOPTIONS.cs" />
+    <Compile Include="ChatRichTextBox\GifBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ChatRichTextBox\IAdviseSink.cs" />
+    <Compile Include="ChatRichTextBox\IDataObject.cs" />
+    <Compile Include="ChatRichTextBox\IEnumFORMATETC.cs" />
+    <Compile Include="ChatRichTextBox\IEnumOLEVERB.cs" />
+    <Compile Include="ChatRichTextBox\IEnumSTATDATA.cs" />
+    <Compile Include="ChatRichTextBox\IEnumSTATSTG.cs" />
+    <Compile Include="ChatRichTextBox\ILockBytes.cs" />
+    <Compile Include="ChatRichTextBox\IOleClientSite.cs" />
+    <Compile Include="ChatRichTextBox\IOleContainer.cs" />
+    <Compile Include="ChatRichTextBox\IOleObject.cs" />
+    <Compile Include="ChatRichTextBox\IRichEditOle.cs" />
+    <Compile Include="ChatRichTextBox\ISequentialStream.cs" />
+    <Compile Include="ChatRichTextBox\IStorge.cs" />
+    <Compile Include="ChatRichTextBox\IStream.cs" />
+    <Compile Include="ChatRichTextBox\NativeMethods.cs" />
+    <Compile Include="ChatRichTextBox\REOBJECT.cs" />
+    <Compile Include="ChatRichTextBox\REOOBJECTFLAGS.cs" />
+    <Compile Include="ChatRichTextBox\RichEditOle.cs" />
+    <Compile Include="ChatRichTextBox\STATDATA.cs" />
+    <Compile Include="ChatRichTextBox\STGM.cs" />
+    <Compile Include="ChatRichTextBox\STGMEDIUM.cs" />
+    <Compile Include="ChatRichTextBox\tagLOGPALETTE.cs" />
+    <Compile Include="ChatRichTextBox\tagOLEVERB.cs" />
+    <Compile Include="ChatRichTextBox\TYMED.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ChatListBox\ChatListBox.resx">
+      <DependentUpon>ChatListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Busy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DontDisturb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Invisible.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OnLine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QMe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\null.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Away.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

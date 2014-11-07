@@ -1,0 +1,9 @@
+<Settings>
+   <Login>
+      <Address>192.168.1.101</Address>
+      <Resource>win8</Resource>
+      <Port>5222</Port>
+      <Priority>10</Priority>
+      <Ssl>false</Ssl>
+   </Login>
+</Settings>
